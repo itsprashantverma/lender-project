@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans" rel="stylesheet"> 
+
+
+<style>
+
+            body
+                    {
+                      /* font-family:Humanist 777; */
+                      background: linear-gradient(.25turn, lightgray, 10%, white);
+                      font-size: small;
+                      font-weight: lighter;
+                    
+                    }
+                    button{
+                      background-color:rgb(35, 90, 125);
+                      border: none;
+                      color: white;
+                      padding: 1rem;        
+                      font-size: 1.5rem ;
+                      border-radius: 1rem ;
+                      margin:1.5rem;                   
+                    }
+                    /* navigation bar */
+                   .topNavBar
+                      {                     
+                        padding:0.5rem;
+                        background-color:white ;
+                        width:100%;
+                        height:10%;
+                        text-decoration:none;
+                      }
+
+                     ul {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        white-space: 2rem; ;
+                        
+                        
+                      }
+
+                      li {
+                        display: inline;
+                        float:5rem;
+                        
+                      }
+                    .logo
+                    {
+                      font-size:2rem ;
+                      background-color: lightblue;
+                    }
+                    /* logo or main heading */
+           
+                    /* navigation links*/
+            
+                    /* navigation link with right border */
+        
+                    #maincontentID{
+                      background: white;
+                      width: 80%;
+                      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                      /*  */
+                      border-radius:0.5rem;
+                      padding-left:9rem ;
+                      padding-right:9rem ;
+                      margin: auto; 
+                      font-size:1.5rem ; 
+                      }
+                    #emailID{
+                      margin: auto; 
+                      text-align: center;
+                      padding-top: 5rem;    
+                      padding-bottom: 5rem;  
+                      color:rgb(35, 90, 125)
+                    }
+                    #topsearchID{
+                      text-align: center;
+                      background:rgb(35, 90, 125);;
+                      color:white;
+                    }
+                    /* sign up link button and toggle button */
+                 
+                  
+                  
+                          #content {
+                            padding: 2px;
+                            margin: auto;
+                          }                      
+
+                          #search {
+                            border-radius:1rem;
+                            padding:1rem ;
+                            border:none ;
+                          }
+                          .text-center {
+                            color: #fff;
+                          }
+                          #seachtextboxID
+                          {
+                            padding:1.5rem;
+                          }
+                          #proposalID{
+                            width:100% ; 
+                            margin: auto; 
+                            padding:2rem ;
+                            border:lightblue 1px solid; 
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                            border-radius:0.5rem;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                          }
+                          .cards{
+                            width:25% ; 
+                            margin:auto;
+                            text-align: center;
+                            padding-bottom:2rem;
+                            padding-top:2rem;
+                          }
+                          .cardtitle{
+                            font-size:1.5rem;
+                            font-weight: bold;
+                          }
+                          .carddata{
+                            font-size:2rem; 
+                            font-weight: bold;
+                            color:rgb(35, 90, 125)
+                          }
+                          .reasonload{
+                            width:100% ; 
+                            margin: auto; 
+                            padding:2rem;
+                            border:lightblue 1px solid;     
+                            border-radius:0.5rem;                       
+                          }
+                          .reviewloadrequest
+                          {
+                            width:100% ; 
+                            text-align: center;
+                          }
+                          #logoID{
+                            float:left;                           
+                          
+                          }
+                          #myNavbarID{
+                            float:right;                           
+                          }
+                          #firstlinkID{
+                            border-right:solid 1px #ccc;                   
+                            
+                            padding-right: 2rem ;
+                          }
+                          #secoundlinkID{
+                            padding-left: 2rem ;
+                            border-right:solid 1px #ccc;                    
+                          
+                            padding-right: 2rem ;
+                          }
+                          #thirdlinkID{
+                            padding-left: 2rem ;
+                            border-right:solid 1px #ccc;                    
+                           
+                            padding-right: 2rem ;
+                          }
+                          #forthlinkinkID{
+                            padding-left: 2rem ;
+                          
+                            padding-right: 2rem ;
+                          }
+                          
+                        
+                    
+</style>
+</head>
+<body >
+    <div id="topsearchID" >
+            <form onsubmit="event.preventDefault();" role="search">
+                <label id="seachtextboxID">Hi Sam<span style="font-weight:lighter ;"> - Welcome to Lender</span>  </label>
+                        <!-- <input id="search" type="search" placeholder="Search..." autofocus required /> -->
+               
+            </form>
+    
+    </div>
+   <!-- Top Menu Bar Start-->
+                  <div class="topNavBar">
+                    <div class="container">	
+                            <div id="logoID" > <img style="height:30%;width:30%;" src="Assets/companylogo.png"></div>   
+
+                            <div id="myNavbarID"  class="collapse navbar-collapse" >  
+                              <ul id="link" class="">
+                                <li id="firstlinkID" class="dropdown">
+                                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">I want to... <span class="caret"></span></a>
+                                  <ul  class="dropdown-menu">
+                                    <li><a href="#">Page 1-1</a></li>
+                                    <li><a href="#">Page 1-2</a></li>
+                                    <li><a href="#">Page 1-3</a></li>
+                                  </ul>
+                                </li>
+                                <li><a id="secoundlinkID" href='#' >Dashboard</a></li>
+                                <li><a id="thirdlinkID" href='#' id="third-link">Advice</a></li>
+                                <li><a id="forthlinkinkID" href=""> <img style="height:4rem;width:4rem;" src="Assets/customerlogin.png">  </a>
+                              </li>
+                                <li class="dropdown" >
+                                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sam Michael <span class="caret"></span></a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="#">Page 1-1</a></li>
+                                    <li><a href="#">Page 1-2</a></li>
+                                    <li><a href="#">Page 1-3</a></li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </div>                          
+                 
+                    </div>          
+                  </div>
+   <!--Top Menu Bar End-->
+  <!-- email ID area-->
+                  <Div id="emailID">
+                    <h1>Hi <span style="font-weight:bold ;"> johnsmith@mail.com</span></h1>
+                  </Div>
+  <!--- email ID End-->
+  <!--Main Content Start-->
+    <div id="maincontentID" >
+
+            <div class="d-flex flex-row">
+                <div id="mainheadingID" >
+                    <div style="width:100% ; margin: auto; padding:5rem ;text-align: center;"><span style="font-weight: bold;color:rgb(35, 90, 125) ">Amanda Alison </span> who has identified you as a friend, has send you a loan reuest
+                                if they wrote you an optional message you will see that below
+                    </div>                
+
+                    <div style="width:100% ;padding-bottom:2rem;font-weight:bold; ">Optional message from <span style="font-weight:bold;color:rgb(35, 90, 125) ;">Amanda Alison </span></div>
+
+                    <div id="" style="width:100% ; margin: auto; padding:2rem ;border:lightgray 1px dashed ;">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, send do eiusmod tempor incididunt ut labore et dolore magna aliqu.
+                      Ut enim ad minim, Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et
+                      dolore magna aliqu.Ut enim ad minim.Lorem ipsum dolor sit amet, consectetur adipiscing elit.   
+                    </div> 
+                                  
+                    <div style="padding-bottom:2rem;padding-top:2rem;font-weight:bold;">Here are the proposal load term </span></div>
+                                  
+                    <div id="proposalID" >
+                          <div id="loanAmountID" class="cards"> 
+                            <div class="cardtitle">Load Amount</div>
+                            <div class="carddata">$3000.00</div>
+                          </div>
+                          <div id="loanAmountID" class="cards"> 
+                            <div class="cardtitle">Load Duration</div>
+                            <div class="carddata">12 Months</div>
+                          </div>
+                          <div id="loanAmountID" class="cards"> 
+                            <div class="cardtitle">Interset Rate</div>
+                            <div class="carddata">12 %</div>
+                          </div>
+                          <div id="loanAmountID" class="cards"> 
+                            <div class="cardtitle">Repayment Start Date</div>
+                            <div class="carddata">02/07/2022</div>
+                          </div>                          
+                    </div> 
+                    <div style="height:40px ;"> </div>
+
+                    <div id="reasonloadID" class="reasonload">
+                      <div style="padding-bottom:2rem;font-weight:bold;"> Reason for Load </div>
+                      <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, send do eiusmod tempor incididunt ut labore et dolore magna aliqu. </div>
+                    </div>
+                    
+                    <div style="padding-bottom:2rem;padding-top:2rem;font-weight:bold;text-align: center;color: grey; ">
+                        <span style="font-weight:bold;color:rgb(35, 90, 125) ;">Amanda Alison</span> 
+                        is waiting for your action ! 
+                    </div>
+
+                    <div id="reviewloadrequestID" class="reviewloadrequest" >
+                        <button id="btnreviewloadrequestID" > Review Load Request</button>
+                    </div>
+
+                    <div class="reasonload">
+                      <span style="font-weight:bold;">Credit One Peer to Peer Lending</span> 
+                      is a platform to make family and friends lending easy. We provide service to sign loan agreements, get monthly payment reminders, 
+                      and facilitates automatic loan payments.
+                  </div>
+                
+              </div> 
+          </div>
+
+      </div>
+  <!--Main Content End-->
+  
+ 
+</body>
+</html>
+
+

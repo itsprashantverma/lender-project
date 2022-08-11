@@ -1,0 +1,87 @@
+.details-container {
+  width: 100vw;
+  margin-bottom: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  background-color: #fff;
+  width: 80vw;
+  border-radius: 8px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.name {
+  font-weight: bold;
+  color: rgb(35, 90, 125);
+}
+
+.faltu {
+  width: 80%;
+  margin-bottom: 36px;
+  padding: 16px;
+  border: lightgray 1px dashed;
+  border-radius: 8px;
+}
+
+.first-para{
+    width: 50%;
+    margin: 30px 0 50px 0;
+}
+
+.second-para , .third-para{
+    width: 80%;
+    text-align: start;
+    margin-bottom: 8px;
+}
+
+.heading{
+    font-weight: 600;
+}
+
+
+.cta-button {
+  background-color: rgb(35, 90, 125);
+  width: 50%;
+  text-align: center;
+  border: none;
+  color: white;
+  padding: 8px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.cta-button:hover{
+  background-color: rgb(35, 90, 125);
+}
+
+.cta{
+    margin-bottom: 48px;
+}
+
+.cta-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(35, 90, 125);
+}
+
+.cta-para{
+    color: #343a40;
+    font-size: 24px;
+    margin-bottom: 48px;
+}
+
+@media only screen and (max-width: 800px) {
+  .cta-button{
+    width: 80%;
+  }
+}
